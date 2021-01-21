@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Page</h1>
+    <ul>
+        {% for student in students %}
+        <li>{{student.firstName}} {{student.lastName}}</li>
+        {% endfor %}
+    </ul>
+    <h4>Total student : {{number}}</h4>
+</body>
+</html>
